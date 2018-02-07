@@ -1,6 +1,6 @@
-var planetNames = ["Jupiter", "Venus", "Saturn", "Mars"];
-var distancesFromEarth = [5.2, 0.72, 9.5, 1.5];
-var sunnyInAugust = [false, true, false, true];
+var planetNames = ["Jupiter", "Venus", "Saturn", "Mars", "Uncreative"];
+var distancesFromEarth = [5.2, 0.72, 9.5, 1.5, 42.0];
+var sunnyInAugust = [false, true, false, true, false];
 
 //Display the planet information
 for(var i = 0; i < planetNames.length; i++)
