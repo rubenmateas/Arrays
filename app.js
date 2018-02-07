@@ -45,8 +45,11 @@ window.onload = function() {
   var insert= "";
 
   for (var i = 0; i < planetNames.length; i++) {
-    insert += "<span class='planet'>" + planetNames[i] + "</span>" + "<br />" + distancesFromEarth[i] + "<br />" + sunnyInAugust[i] + "<br />" + "-------- <br />";
-    console.log(insert);
+    insert += "<span class='planet'>"
+      + planetNames[i] + "</span>" + "<br />"
+      + distancesFromEarth[i] + "<br />"
+      + sunnyInAugust[i] + "<br />"
+      + "-------- <br />";
   }
 
   document.getElementById("main").innerHTML = "" + insert + "";
